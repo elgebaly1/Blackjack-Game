@@ -15,3 +15,12 @@ h1 {
 #message-el {
     font-style: italic
 }
+#start-btn{
+    color: #016f32;
+    background-color: goldenrod;
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 5px 0;
+}

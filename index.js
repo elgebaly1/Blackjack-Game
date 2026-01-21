@@ -11,6 +11,10 @@ let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
 
 function startGame() {
+    renderGame()
+}
+
+function renderGame(){
     cardsEl.textContent = "cards: " + firstCard + " " + secondCard
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20){
@@ -24,12 +28,10 @@ function startGame() {
     }
     messageEl.textContent = message
 }
-// console.log(hasBlackJack)
-// console.log(isAlive)
 
 function newCard() {
     console.log("Drawing a new card from the deck!")
-    let card = 3
+    let card = 7
     sum += card
     startGame()
 }

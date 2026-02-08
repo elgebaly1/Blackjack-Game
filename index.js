@@ -44,7 +44,8 @@ let featuredPosts = [
     "Here's the code for my project",
     "I've just relaunched my portfolio"
 ]
-// Create an array that lists your i.e. experience, education, licenses, skills or similar
-// The items of the array should be strings
+
 let myExperience = ["software development","frontend development","backend development"]
-// console.log(myExperience)
+console.log(myExperience[1])
+console.log(myExperience[2])
+console.log(myExperience[0])

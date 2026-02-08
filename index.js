@@ -37,16 +37,4 @@
 // }
 
 
-// Arrays - ordered lists of items
-
-let featuredPosts = [
-    "Check out my Netflix clone",
-    "Here's the code for my project",
-    "I've just relaunched my portfolio"
-]
-
-let myExperience = ["software development","frontend development","backend development"]
-console.log(myExperience[1])
-console.log(myExperience[2])
-console.log(myExperience[0])
-console.log(myExperience.length)
+let mySelf = ["mostafa mohamed montaser", 22, true]

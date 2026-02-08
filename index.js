@@ -49,3 +49,4 @@ let myExperience = ["software development","frontend development","backend devel
 console.log(myExperience[1])
 console.log(myExperience[2])
 console.log(myExperience[0])
+console.log(myExperience.length)

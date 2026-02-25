@@ -37,13 +37,7 @@
 //     startGame()
 // }
 
-
-// Count to ten!
-// We need to specify...
-// Where should we START counting?
-// Where is the FINISH line?
-// What's the STEP SIZE we should use?
-//       START           FINISH       STEP SIZE
-for ( let count = 10;  count <= 100;  count += 10 ) {
-    console.log(count)
+let cards = [7, 3, 9]
+for (let i = 0; i < cards.length ; i++){
+    console.log(cards[i])
 }

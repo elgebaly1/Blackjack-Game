@@ -43,3 +43,5 @@ function newCard() {
     cards.push(card)
     startGame()
 }
+let random = Math.random()
+console.log (random)

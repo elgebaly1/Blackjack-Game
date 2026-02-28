@@ -43,5 +43,10 @@ function newCard() {
     cards.push(card)
     startGame()
 }
-let flooredNumber = Math.floor(88.323151)
-console.log(flooredNumber)
+
+let randomNumber = Math.floor( Math.random() * 6 )
+console.log(randomNumber)
+/* 
+Write down all the possible values randomNumber can hold now!
+0, 1, 2, 3, 4, 5
+*/

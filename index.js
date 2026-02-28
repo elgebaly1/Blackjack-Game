@@ -43,5 +43,10 @@ function newCard() {
     cards.push(card)
     startGame()
 }
-let random = Math.random()
+let random = Math.random() * 6
 console.log (random)
+/* 
+In which range will our randomNumber be now?
+From: 0.000
+To: 5.999
+*/

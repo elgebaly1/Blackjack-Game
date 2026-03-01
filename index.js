@@ -44,9 +44,8 @@ function newCard() {
     startGame()
 }
 
-let randomNumber = Math.floor( Math.random() * 6 )
-console.log(randomNumber)
-/* 
-Write down all the possible values randomNumber can hold now!
-0, 1, 2, 3, 4, 5
-*/
+function rollDice(){
+    let randomNumber = Math.floor(Math.random() *6)+1
+    return randomNumber
+}
+console.log(rollDice())

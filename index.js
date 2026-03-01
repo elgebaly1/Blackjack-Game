@@ -11,7 +11,7 @@ let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
 
 function getRandomCard(){
-    return 5
+    return Math.floor(Math.random() * 13) + 1
 }
 
 function startGame() {
@@ -43,9 +43,3 @@ function newCard() {
     cards.push(card)
     startGame()
 }
-
-function rollDice(){
-    let randomNumber = Math.floor(Math.random() *6)+1
-    return randomNumber
-}
-console.log(rollDice())

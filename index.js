@@ -8,6 +8,13 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
 
+let player = {
+    name: "per" ,
+    chips: 150
+}
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = player.name + ": $" + player.chips
+
 function getRandomCard(){
     let randomNumber = Math.floor( Math.random()*13 ) + 1
     if (randomNumber === 1){
@@ -61,8 +68,4 @@ let likesDocumentaries = true
 let likesStartups = true
 if (likesDocumentaries === true || likesStartups === true){
     recommendMovie()
-}
-
-function recommendMovie() {
-    console.log("Hey, check out this new film we think you will like!")
 }

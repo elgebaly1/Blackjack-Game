@@ -1,3 +1,6 @@
+let player = {
+    name: "per",
+    chips: 145 }
 let sum = 0
 let cards = []
 let hasBlackJack = false
@@ -7,17 +10,8 @@ let messageEl = document.getElementById("message-el")
 // let sumEl = document.getElementById("sum-el")
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
-
-let airbnbCastleListing = {
-    title: "airbnb castle",
-    price: 190,
-    IsRentByNight: true,
-    reviews: ["very good", "amazing", "will come again" , "not bad", "could be better"]
-}
-console.log(airbnbCastleListing.title)
-console.log(airbnbCastleListing.price)
-console.log(airbnbCastleListing.IsRentByNight)
-console.log(airbnbCastleListing.reviews)
+let playerEL = document.getElementById("player-el")
+playerEL.textContent = player.name + ": $" + player.chips
 
 function getRandomCard(){
     let randomNumber = Math.floor( Math.random()*13 ) + 1

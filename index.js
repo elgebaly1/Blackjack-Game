@@ -8,12 +8,16 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
 
-let player = {
-    name: "per" ,
-    chips: 150
+let airbnbCastleListing = {
+    title: "airbnb castle",
+    price: 190,
+    IsRentByNight: true,
+    reviews: ["very good", "amazing", "will come again" , "not bad", "could be better"]
 }
-let playerEl = document.getElementById("player-el")
-playerEl.textContent = player.name + ": $" + player.chips
+console.log(airbnbCastleListing.title)
+console.log(airbnbCastleListing.price)
+console.log(airbnbCastleListing.IsRentByNight)
+console.log(airbnbCastleListing.reviews)
 
 function getRandomCard(){
     let randomNumber = Math.floor( Math.random()*13 ) + 1
@@ -62,10 +66,4 @@ function newCard() {
     cards.push(card)
     renderGame()
     }
-}
-
-let likesDocumentaries = true
-let likesStartups = true
-if (likesDocumentaries === true || likesStartups === true){
-    recommendMovie()
 }
